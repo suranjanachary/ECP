@@ -1,12 +1,10 @@
 package com.masai.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,13 +12,23 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class Customer extends User {
+@NoArgsConstructor
+public class Cart {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Integer customerId;
+	private Integer cartId;
+	@NotNull
+	private Integer productId;
+	@NotNull
+	private Integer quantity;
+	@NotNull
+	private Float unitCost;
+	@NotNull
+	private Float subtotal;
+	@NotNull
+	private String dateAdde;
 	
-	List<Order> orders= new ArrayList<>();
+	
 }
