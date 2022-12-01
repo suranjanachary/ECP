@@ -42,23 +42,17 @@ REST API developed for an Online beverages ordering Application.This API handles
 
 ## Features
 
-- Customer, Driver and Admin authentication & validation with session UUID.
+- Customer and Admin authentication & validation with session UUID.
 - Admin Features:
-  - Admin can register, log in, log out, update and delete accounts
+  - Admin can register, log in, log out and update account.
   - Admin have control over the entire application
-  - Admin can manage Cab, Driver, and Booking
-  - Admin can access the details of different customers, drivers and trip bookings
+  - Admin can add, view, update and delete Products, Categories.
   - Only logged-in Admin can access all features of Admin
 - Customer Features:
   - Customers can register themselves with the application, logging in and logout into the application
-  - Customers can book cabs for the desired location from a specific location and can cancel the booked trip
+  - Customers can view products according a specific category also in price sorted fashion(low to high/ high to low).
   - Customers can update, or delete their accounts
   - Only logged-in users can access all customer features
-- Driver Features:
-  - Drivers can register themselves with the application, log in and log out into the application
-  - Drivers can update the trip status
-  - Drivers can update and delete their accounts
-  - Only logged-in drivers can access all driver features
 
 ## Installation and Run
 
@@ -66,7 +60,7 @@ REST API developed for an Online beverages ordering Application.This API handles
 #changing the server port
 server.port=8888
 #db specific properties
-spring.datasource.url=jdbc:mysql://localhost:3306/flashgodb
+spring.datasource.url=jdbc:mysql://localhost:3306/ecpdb
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.datasource.username=root
 spring.datasource.password=root
@@ -93,10 +87,3 @@ http://localhost:8888/swagger-ui/
 ## Contributors
 
 - [Suranjan Achary](https://github.com/suranjanachary)
-- [Satadal Banerjee](https://github.com/SatadalBanerjee)
-- [Saurav Kumar](https://github.com/sauravugi)
-- [Sanket Wankhede](https://github.com/sank29)
-- [Shubham Ganeshrao Ughade](https://github.com/shubhamughade)
-
-
-
