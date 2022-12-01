@@ -27,7 +27,7 @@ REST API developed for an Online beverages ordering Application.This API handles
 
 ## E-Cafe
 
-![CW_erd-Page-2](https://github.com/suranjanachary/glad-creator-1065/blob/main/FLASH-GO.png?raw=true)
+![CW_erd-Page-2]([https://github.com/suranjanachary/glad-creator-1065/blob/main/FLASH-GO.png?raw=true](https://github.com/suranjanachary/ECP/blob/main/e-cAFE%20(1).png?raw=true))
 
 ## ER Diagram
 
