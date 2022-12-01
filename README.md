@@ -31,12 +31,12 @@ REST API developed for an Online beverages ordering Application.This API handles
 
 ## ER Diagram
 
-![CW_erd-Page-1 drawio](https://github.com/suranjanachary/glad-creator-1065/blob/main/model%20class.png?raw=true)
+![CW_erd-Page-1 drawio]()
 
 
 ## Service Interface
 
-![CW_erd-Page-2](https://github.com/suranjanachary/glad-creator-1065/blob/main/service%20interface.png?raw=true)
+![CW_erd-Page-2]()
 
 
 
